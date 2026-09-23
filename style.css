@@ -1,0 +1,64 @@
+:root{
+    --primary-color: #040404;
+    --secondary-color: #6c757d;
+    --font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+   
+}
+
+.profile-container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile img{
+    height:200px;
+    width: auto;
+
+}
+
+.Info{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Info h2{
+    text-align: center;
+}
+
+.Info p , i, a{
+    text-align: left;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.About{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.skill-container{
+    display: flex;
+    text-align: center;
+    gap: 1px;
+    flex-direction: column;
+}
+.Skill-container h2{
+font-size: 20px;
+}
+.skill{
+    font-size: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
