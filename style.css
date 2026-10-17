@@ -148,3 +148,22 @@ h2{
 .experience-card p {
     color: var(--secondary-color);
 }
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 40px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid var(--secondary-color);
+}
+
+.menu a {
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: var(--secondary-color);
+}
