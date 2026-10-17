@@ -99,3 +99,28 @@ h2{
     text-align: center;
     font-size: 18px;
 }
+.projects {
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project {
+    padding: 20px;
+    border: 1px solid var(--secondary-color);
+    background-color: white;
+}
+
+.project h3 {
+    color: var(--primary-color);
+}
+
+.project p {
+    color: var(--secondary-color);
+}
