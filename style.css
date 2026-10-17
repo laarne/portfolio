@@ -1,12 +1,13 @@
 :root{
     --primary-color: #040404;
     --secondary-color: #6c757d;
-    --font-family: 'Arial', sans-serif;
+    --font-family: Arial, sans-serif;
 }
 
 body {
+  
     font-family: var(--font-family);
-    margin: 0;
+    margin: 100px;
     padding: 0;
     background-color: #f8f9fa;
    
@@ -28,6 +29,7 @@ body {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+  
 }
 
 .Info h2{
@@ -35,30 +37,65 @@ body {
 }
 
 .Info p , i, a{
-    text-align: left;
-    text-decoration: none;
-    color: var(--primary-color);
+    text-align: center;
+    
 }
+
+.Info a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;}
+    
+
+.Info a:hover{
+    transform: scale(1.1) ;
+}   
 .About{
     display: flex;
     text-align: center;
     width: 100%;
     flex-direction: column;
+
 }
 
 
-.skill-container{
+.lists{
     display: flex;
     text-align: center;
-    gap: 1px;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    
+   
 }
-.Skill-container h2{
-font-size: 20px;
-}
-.skill{
-    font-size: 10px;
-    margin: 10px;
-    text-align: center;
 
+.list{
+    text-align: left;
+     
+}
+h2{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Skill-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    border:1px solid gray ;
+
+}
+.Skill{
+   border: 1px solid var(--secondary-color);
+   padding: 10px;
+   height: auto;
+   margin: 10px;
+   width: auto;
+   
+   
+
+}
+.Skill h3{
+    text-align: center;
+    font-size: 18px;
 }
