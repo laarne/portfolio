@@ -124,3 +124,27 @@ h2{
 .project p {
     color: var(--secondary-color);
 }
+.experience {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.experience-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.experience-card {
+    padding: 20px;
+    border: 1px solid var(--secondary-color);
+    background-color: white;
+}
+
+.experience-card h3 {
+    color: var(--primary-color);
+}
+
+.experience-card p {
+    color: var(--secondary-color);
+}
